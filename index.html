@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="css/style.css" />
+        <title>Test</title>
+    </head>
+    <body>
+        <div class="wrapper">
+            <div class="content">
+                <img class="img" src="img/1.svg" alt="" />
+                <h1 class="title">Опитувальник суїцидального ризику</h1>
+                <div class="text">
+                    У вас часто присутнє почуття нудьги та втоми?
+                </div>
+                <div class="variants">
+                    <div class="input__wrapper">
+                        <input
+                            class="radio__btn"
+                            type="radio"
+                            name="year"
+                            id="y1"
+                        />
+                        Часто
+                    </div>
+                    <div class="input__wrapper">
+                        <input
+                            class="radio__btn"
+                            type="radio"
+                            name="year"
+                            id="y2"
+                        />
+                        Іноді
+                    </div>
+                    <div class="input__wrapper">
+                        <input
+                            class="radio__btn"
+                            type="radio"
+                            name="year"
+                            id="y3"
+                        />
+                        Ніколи
+                    </div>
+                    <div class="input__wrapper">
+                        <input
+                            class="radio__btn"
+                            type="radio"
+                            name="year"
+                            id="y4"
+                        />
+                        Мабуть
+                    </div>
+                </div>
+            </div>
+            <button type="btn" id="btn" class="btn">Відповісти</button>
+            <div class="right_var hidden" id="right_var">
+                Правильна відповідь
+            </div>
+            <div class="wrong_var hidden" id="wrong_var">
+                <div class="wrong" id="wrong">Неправильна відповідь</div>
+                <button id="btn1">Подивитись відповідь</button>
+            </div>
+            <div id="answer" class="hidden">Іноді</div>
+        </div>
+        <script src="js/app.js"></script>
+    </body>
+</html>
